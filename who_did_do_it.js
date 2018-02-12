@@ -133,7 +133,6 @@
 
 // ### Ad break - One small thing that will make your life easier! If you buy now.
 const errorMessage = function(error){
-
   // if you don't toString below you get a huge message instead
   console.log("Error message:", error.toString());
   // below would show the full error details
