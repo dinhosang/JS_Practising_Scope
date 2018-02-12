@@ -193,97 +193,97 @@ const errorMessage = function(error){
 // playAgain()
 
 
-// ### Episode 10 - The Final Count, the Last Hurrah
-
-numberFive = 5;
-var   numberEight   = 8;
-const numberNine    = 9;
-let   numberFifteen = 15;
-
-
-const practiseScope = function(){
-  console.log("Number Five at top of practiseScope:", numberFive);
-  console.log("Number Ten at top of practiseScope: " + numberTen);
-
-  if(true){
-    var numberTen = 10;
-    let numberThree = 3;
-    console.log("NumberThree in IF statement:", numberThree);
-  } else {
-    var numberTen = 10;
-    let numberThree = "three";
-    console.log("NumberThree in ELSE statement:", numberThree);
-  }
-
-  console.log("Number Ten after if statement: " + numberTen);
-  numberFive = "five"
-  console.log();
-
-  try {
-    console.log("Number Five at end of practiseScope:", numberFive);
-  }
-  catch(error) {
-    errorMessage(error)
-  }
-
-  try {
-    console.log("Number Ten at end of practiseScope:",numberTen);
-  }
-  catch(error) {
-    errorMessage(error)
-  }
-
-  try {
-    console.log("NumberThree at end of practiseScope:", numberThree);
-  }
-  catch(error) {
-    errorMessage(error)
-  }
-
-  console.log("");
-}
-practiseScope();
-
-const logPractiseScopeAgain = function(){
-
-    console.log("Number Five:", numberFive);
-    console.log("Number Eight:", numberEight);
-    console.log("Number Fifteen: " + numberFifteen);
-
-    try {
-      console.log("Number Ten:", numberTen);
-    }
-    catch(error) {
-      errorMessage(error)
-    }
-
-    try {
-      console.log("Number Nine:", numberNine);
-    }
-    catch(error) {
-      errorMessage(error)
-    }
-
-    try {
-      console.log("Number Three:", numberThree);
-    }
-    catch(error) {
-      errorMessage(error)
-    }
-
-    console.log();
-}
-logPractiseScopeAgain();
-
-try {
-  console.log(numberTen);
-}
-catch (error) {
-  errorMessage(error)
-}
-try {
-  console.log(numberThree);
-}
-catch (error) {
-  errorMessage(error)
-}
+// // ### Episode 10 - The Final Count, the Last Hurrah
+//
+// numberFive = 5;
+// var   numberEight   = 8;
+// const numberNine    = 9;
+// let   numberFifteen = 15;
+//
+//
+// const practiseScope = function(){
+//   console.log("Number Five at top of practiseScope:", numberFive);
+//   console.log("Number Ten at top of practiseScope: " + numberTen);
+//
+//   if(true){
+//     var numberTen = 10;
+//     let numberThree = 3;
+//     console.log("NumberThree in IF statement:", numberThree);
+//   } else {
+//     var numberTen = 10;
+//     let numberThree = "three";
+//     console.log("NumberThree in ELSE statement:", numberThree);
+//   }
+//
+//   console.log("Number Ten after if statement: " + numberTen);
+//   numberFive = "five"
+//   console.log();
+//
+//   try {
+//     console.log("Number Five at end of practiseScope:", numberFive);
+//   }
+//   catch(error) {
+//     errorMessage(error)
+//   }
+//
+//   try {
+//     console.log("Number Ten at end of practiseScope:",numberTen);
+//   }
+//   catch(error) {
+//     errorMessage(error)
+//   }
+//
+//   try {
+//     console.log("NumberThree at end of practiseScope:", numberThree);
+//   }
+//   catch(error) {
+//     errorMessage(error)
+//   }
+//
+//   console.log("");
+// }
+// practiseScope();
+//
+// const logPractiseScopeAgain = function(){
+//
+//     console.log("Number Five:", numberFive);
+//     console.log("Number Eight:", numberEight);
+//     console.log("Number Fifteen: " + numberFifteen);
+//
+//     try {
+//       console.log("Number Ten:", numberTen);
+//     }
+//     catch(error) {
+//       errorMessage(error)
+//     }
+//
+//     try {
+//       console.log("Number Nine:", numberNine);
+//     }
+//     catch(error) {
+//       errorMessage(error)
+//     }
+//
+//     try {
+//       console.log("Number Three:", numberThree);
+//     }
+//     catch(error) {
+//       errorMessage(error)
+//     }
+//
+//     console.log();
+// }
+// logPractiseScopeAgain();
+//
+// try {
+//   console.log(numberTen);
+// }
+// catch (error) {
+//   errorMessage(error)
+// }
+// try {
+//   console.log(numberThree);
+// }
+// catch (error) {
+//   errorMessage(error)
+// }
