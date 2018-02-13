@@ -12,7 +12,6 @@
 // // this is because the name is defined outside the method and so is available within
 
 
-
 // // ### Episode 2
 //
 // score = 5;
@@ -28,22 +27,27 @@
 // // rather than the global one outside of the function
 
 
-// // ### Episode 3
-//
-// var myAnimals = ['Chickens', 'Cats', 'Rabbits'];
-//
-// var listAnimals = function() {
-//   myAnimals = ['Ducks', 'Dogs', 'Lions'];
-//   for(var i=0;i<myAnimals.length; i++){
-//     console.log(i + ": " + myAnimals[i]);
-//   }
-// }
-//
-// listAnimals();
+// ### Episode 3
+
+var myAnimals = ['Chickens', 'Cats', 'Rabbits'];
+
+var listAnimals = function() {
+  myAnimals = ['Ducks', 'Dogs', 'Lions'];
+  for(var i=0;i<myAnimals.length; i++){
+    console.log(i + ": " + myAnimals[i]);
+  }
+}
+
+listAnimals();
+console.log(myAnimals);
+
+
+cake = "cake"
+console.log(global);
 //
 // // this will return "0: Ducks" "1: Dogs" "2: Lions"
-// // myAnimals is created as a new global variable in the function and that is what
-// // is looped through
+// // myAnimals is linked to the original var myAnimals in the function and is modified
+// and that new value is what is looped through.
 
 
 // // ### Episode 4
